@@ -1,24 +1,39 @@
-# README
+# Vie en fleur
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## サイト概要
+色のイメージや込めたいメッセージを花屋さんに直接届け、オーダーできるサイトです。
+花屋へ出向いて店員さんに話しかけるのは勇気がいる。電話だと注文しづらい。けれど具体的なイメージも伝えたい！という方にも花を身近に感じていただければ幸いです。
 
-Things you may want to cover:
+### サイトテーマ
+オーダーを手軽に
 
-* Ruby version
+### テーマを選んだ理由
+知り合いが個人で花屋を経営している。花束やアレンジメントの注文方法には来店/電話/花キューピットがある。
+(花キューピットは花の注文をインターネットで受け付け、全国の花屋に電話で問い合わせて注文を分散させるサービスのこと)
+最近は時勢の変化もあり、花を注文する人が増えて電話での注文や花キューピットで注文が回ってくることもあるが電話ですぐに答えなければならないため断ってしまうこともある。
+お客さんの注文を聞き入れるためにも自分の店舗で在庫と注文を整理できるシステムがあれば便利ではないかと考えたため。
+また、お客さんとの距離が近づくことで対応しやすくなると考えたため。
 
-* System dependencies
+### ターゲットユーザ
+個人経営の花屋/注文をまとめて整理したい花屋
 
-* Configuration
+### 主な利用シーン
+生花注文
 
-* Database creation
+## 設計書
+* 投稿機能
+* 注文機能
+* メール機能(Mailer)
+* 地図表示機能(Google API)
 
-* Database initialization
+## チャレンジ要素一覧
+<https://docs.google.com/spreadsheets/d/1UgK-6l38k5T81XjcTIn7CHnGRkB_sBXS5xQWAVhWmks/edit#gid=0>
 
-* How to run the test suite
+## 開発環境
+- OS：Linux(CentOS)
+- 言語：HTML,CSS,JavaScript,Ruby,SQL
+- フレームワーク：Ruby on Rails
+- JSライブラリ：jQuery
+- IDE：Cloud9
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## 使用素材
